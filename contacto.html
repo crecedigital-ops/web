@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - OfiMaster</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(120deg, #00b894, #007acc);
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background: rgba(0,0,0,0.6);
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      text-align: center;
+      padding: 50px 20px;
+      max-width: 700px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 15px;
+      margin: 80px auto;
+    }
+
+    input, textarea {
+      width: 90%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: none;
+      font-size: 1em;
+    }
+
+    button {
+      background: #fff;
+      color: #007acc;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #00b894;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<nav>
+  <a href="pagina.html">Inicio</a>
+  <a href="nosotros.html">Nosotros</a>
+  <a href="contacto.html">Contacto</a>
+  <a href="pago.html">Pago</a>
+  <a href="terminos.html">Términos</a>
+</nav>
+
+
+  <section>
+    <h1>Contáctanos</h1>
+    <form onsubmit="alert('✅ Gracias por contactarnos. Te responderemos pronto.'); return false;">
+      <input type="text" placeholder="Tu nombre completo" required>
+      <input type="email" placeholder="Tu correo electrónico" required>
+      <textarea rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</body>
+</html>

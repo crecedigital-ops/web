@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pago - OfiMaster</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #007acc, #00b894);
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background: rgba(0,0,0,0.6);
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 800px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 15px;
+      padding: 50px;
+      margin: 80px auto;
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+      color: #fff;
+    }
+
+    th, td {
+      padding: 15px;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+    }
+
+    button {
+      background: #fff;
+      color: #007acc;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background: #00b894;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<nav>
+  <a href="pagina.html">Inicio</a>
+  <a href="nosotros.html">Nosotros</a>
+  <a href="contacto.html">Contacto</a>
+  <a href="pago.html">Pago</a>
+  <a href="terminos.html">Términos</a>
+</nav>
+
+
+  <section>
+    <h1>Planes de Pago</h1>
+    <p>Selecciona el plan que mejor se adapte a tus necesidades y comienza a aprender hoy.</p>
+    <table>
+      <tr><th>Curso</th><th>Duración</th><th>Precio</th></tr>
+      <tr><td>Word Básico</td><td>4 semanas</td><td>$ MXN</td></tr>
+      <tr><td>Excel Intermedio</td><td>6 semanas</td><td>$ MXN</td></tr>
+      <tr><td>PowerPoint Creativo</td><td>4 semanas</td><td>$ MXN</td></tr>
+    </table>
+    <button onclick="alert('✅ Pago simulado con éxito. ¡Gracias por tu compra!')">Pagar ahora</button>
+  </section>
+</body>
+</html>
